@@ -76,7 +76,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.intro .left .sign-up {
+.intro .left button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 7px 25px;
