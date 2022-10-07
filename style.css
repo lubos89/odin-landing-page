@@ -157,9 +157,14 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    line-height: 1.5;
 }
 
-.sign-up .container .left h1,p {
+.sign-up .container .left h1 {
+    color: #F9FAF8;
+}
+
+.sign-up .container .left p {
     color: #F9FAF8;
 }
 
