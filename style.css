@@ -81,7 +81,7 @@ a:hover {
     color: #F9FAF8;
     padding: 7px 25px;
     border: none;
-    border-radius: 7px
+    border-radius: 7px;
 }
 
 .info {
@@ -122,6 +122,9 @@ a:hover {
 .quote {
     background-color: #E5E7EB;
     padding: 100px 340px;
+    /* TO DO
+    display: flex;
+    flex-direction: column; */
 }
 
 .quote .text {
@@ -135,6 +138,35 @@ a:hover {
 .quote .author {
     font-size: 20px;
     margin-left: 560px;
+    /* align-self: flex-end; */
     font-weight: 800;
+
 }
 
+.sign-up {
+    background-color: #F9FAF8;
+    padding: 80px 0px;
+}
+
+.sign-up .container {
+    background-color: #3882F6;
+    padding: 40px 0px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up .container .left h1,p {
+    color: #F9FAF8;
+}
+
+.sign-up .container .right button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 7px 25px;
+    border: solid #F9FAF8;
+    border-radius: 7px;
+}
