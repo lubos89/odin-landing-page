@@ -188,3 +188,12 @@ a:hover {
 .footer .text {
     color: #E5E7EB;
 }
+
+button a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #1F2937;
+}
