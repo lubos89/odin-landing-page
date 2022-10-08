@@ -99,6 +99,7 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .info .img-box {
@@ -121,13 +122,15 @@ a:hover {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 100px 340px;
-    /* TO DO
     display: flex;
-    flex-direction: column; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 
 .quote .text {
+    max-width: 800px;
     font-size: 36px;
     font-weight: 300;
     text-align: left;
@@ -137,10 +140,9 @@ a:hover {
 
 .quote .author {
     font-size: 20px;
+    align-self: center;
     margin-left: 560px;
-    /* align-self: flex-end; */
     font-weight: 800;
-
 }
 
 .sign-up {
