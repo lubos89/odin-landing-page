@@ -13,10 +13,10 @@ body {
 
 .header .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 10px 0px;
+    padding: 10px 230px;
 }
 
 .header ul {
@@ -126,7 +126,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 110px;
 }
 
 .quote .text {
