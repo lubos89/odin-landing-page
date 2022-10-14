@@ -54,15 +54,16 @@ a:hover {
     max-width: 400px;
 }
 
-.intro .right {
+/* .intro .right {
     width: 400px;
     height: 200px;
+    border-radius: 10px;
 
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-}
+} */
 
 .intro .left h1 {
     font-size: 48px;
@@ -196,4 +197,16 @@ button a {
 
 button a:hover {
     color: #1F2937;
+}
+
+.intro img {
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.header img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
 }
